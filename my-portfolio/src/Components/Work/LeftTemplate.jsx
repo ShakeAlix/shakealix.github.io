@@ -11,7 +11,7 @@ const LeftTemplate = ({ course, name, desc, img }) => {
 
                 {/* Description Box */}
                 <div className="bg-gradient-to-r from-purple-950/95 to-indigo-950/95 rounded-[10px] p-5">
-                    <p className="text-white text-sm font-josefin leading-loose">{desc}</p>
+                    <p className="text-white text-base font-josefin leading-loose">{desc}</p>
                 </div>
             </div>
 
