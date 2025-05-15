@@ -15,10 +15,12 @@ const Home = () => {
                 <h1 className="text-7xl font-bold">Hi, I'm Shahzaib</h1>
                 
                 <div className="mt-1">
-                    <h2 className="text-5xl font-semibold bg-gradient-to-r from-cyan-500 to-indigo-600 bg-clip-text text-transparent">Full-Stack Developer</h2>
+                    <h2 className="text-3xl font-semibold bg-gradient-to-r from-cyan-500 to-indigo-600 bg-clip-text text-transparent">
+                        Dev-Ops | Networks | AI | Researcher
+                    </h2>
                 </div>
                 
-                <p className="max-w-xl mt-6 text-lg leading-loose">
+                <p className="max-w-xl mt-6 text-lg leading-loose pt-5">
                     I am a computer science major at LUMS with a passion for using technology to create meaningful social impact. 
                     I've explored a wide range of topics—from machine learning and deep learning to distributed systems and full-stack development. 
                     My work has focused on designing with people in mind, as you'll see from my projects. 
@@ -33,7 +35,9 @@ const Home = () => {
                 </div>
             </div>
 
-            <img className="absolute top-[50%] right-[13%] transform -translate-y-1/2 w-80 h-80 rounded-full object-cover" src={`${import.meta.env.BASE_URL}dp.jpg`} />
+            <div className="w-90 h-90 rounded-full bg-slate-600/90">
+                <img className="absolute top-[44%] right-[13%] transform -translate-y-1/2 w-80 h-80 rounded-full object-cover" src={`${import.meta.env.BASE_URL}dp.jpg`} />
+            </div>
         </div>
     </>
 
