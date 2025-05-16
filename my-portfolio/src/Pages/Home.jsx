@@ -28,10 +28,17 @@ const Home = () => {
                     empathy to build tools that solve real-world problems and make lives better.
                 </p>
                 
-                <div className="mt-6"> {/* this adds 24px spacing below the paragraph */}
-                    <button className="w-24 h-8 px-4 py-2 bg-gradient-to-r from-cyan-400/50 via-indigo-400/50 to-fuchsia-600/50 rounded-2xl inline-flex justify-center items-center">
-                        <span className="text-white text-base font-normal font-josefin leading-tight">Contact</span>
-                    </button>
+                <div className="mt-4 flex flex-row gap-2"> {/* this adds 24px spacing below the paragraph */}
+                    <a
+                        href="https://github.com/ShakeAlix"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <img 
+                            src="../../icons/github 1.svg"
+                            className="w-10 h-10"
+                        />
+                    </a>
                 </div>
             </div>
 

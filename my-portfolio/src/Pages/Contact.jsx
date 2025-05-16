@@ -26,7 +26,7 @@ const Contact = () => {
             {/* Simulated LinkedIn Icon */}
             <img src = "../../icons/Group 9.svg" />
             <a
-              href="linkedin.com/in/sheikh-shahzaib-ali-285093247"
+              href="https://linkedin.com/in/sheikh-shahzaib-ali-285093247"
               target="_blank"
               rel="noopener noreferrer"
               className="underline text-base"
