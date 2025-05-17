@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar'
 import About from './Pages/About'
 import Work from './Pages/Work'
 import Contact from './Pages/Contact'
+import Experience from './Pages/Experience'
 
 function App() {
 
@@ -18,6 +19,9 @@ function App() {
       </div>
       <div id="work" className="bg-gradient-to-r from-indigo-950 to-slate-900 pt-14">
         <Work />
+      </div>
+      <div id="experience" className="bg-gradient-to-r from-indigo-950 to-slate-900 pt-14">
+        <Experience />
       </div>
       <div id="contact" className="bg-gradient-to-r from-indigo-950 to-slate-900 pt-14">
         <Contact />
