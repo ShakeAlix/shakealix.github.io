@@ -6,7 +6,9 @@ const About = () => {
             
             <div className="flex flex-col items-center pt-[10%]">
                 
-                <h1 className="bg-gradient-to-r from-cyan-500 to-indigo-600 bg-clip-text text-transparent text-7xl font-bold font-josefin mb-16">About</h1>
+                <h1 className="bg-gradient-to-r from-cyan-500 to-indigo-600 bg-clip-text text-transparent text-7xl font-bold font-josefin mb-16">
+                    About.
+                </h1>
                 
                 
                 <p className="w-[1000px] mx-auto text-lg justify-start text-white text-center font-normal leading-loose font-josefin">
