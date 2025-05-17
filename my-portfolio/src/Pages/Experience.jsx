@@ -9,7 +9,10 @@ const Experience = () => {
 
   return (
     <div className="w-full min-h-screen bg-gradient-to-l from-slate-900 to-indigo-950 text-white font-josefin flex flex-col items-center py-20">
-      <h1 className="text-7xl font-bold text-cyan-400/70 mb-20">Experience.</h1>
+      
+      <h1 className="bg-gradient-to-r from-cyan-500 to-indigo-600 bg-clip-text text-transparent text-7xl font-bold font-josefin mb-16">
+        Experience.
+      </h1>
 
       <div className="flex flex-col md:flex-row items-start gap-10 max-w-6xl w-full px-4">
         {/* Left: Timeline Line + Companies */}
