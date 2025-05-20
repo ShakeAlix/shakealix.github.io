@@ -14,7 +14,7 @@ const Experience = () => {
         Experience.
       </h1>
 
-      <div className="flex flex-col md:flex-row items-start gap-10 max-w-6xl w-full px-4">
+      <div className="flex flex-col md:flex-row items-start gap-10 max-w-6xl w-full px-4 pt-20">
         {/* Left: Timeline Line + Companies */}
         <div className="relative flex flex-col items-start pl-8">
           {/* Full white vertical line */}
