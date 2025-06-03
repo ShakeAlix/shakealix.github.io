@@ -34,6 +34,17 @@ const Contact = () => {
               Sheikh Shahzaib Ali
             </a>
           </div>
+          <div className="flex items-center gap-4">
+            <img src = "../../icons/github 1.svg" className="w-7 h-7"/>
+            <a
+              href="https://github.com/ShakeAlix"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline text-lg"
+            >
+              ShakeAlix
+            </a>
+          </div>
         </div>
       </div>
     </div>
