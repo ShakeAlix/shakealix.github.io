@@ -43,7 +43,11 @@ const Home = () => {
             </div>
 
             <div className="w-90 h-90 rounded-full bg-slate-600/90">
-                <img className="absolute top-[44%] right-[13%] transform -translate-y-1/2 w-80 h-80 rounded-full object-cover" src={`${import.meta.env.BASE_URL}dp.jpg`} />
+                <img
+                    className="absolute top-[44%] right-[13%] transform -translate-y-1/2 w-80 h-80 rounded-full object-cover object-[center_32%]"
+                    src={`${import.meta.env.BASE_URL}dp.jpg`}
+                />
+
             </div>
         </div>
     </>
